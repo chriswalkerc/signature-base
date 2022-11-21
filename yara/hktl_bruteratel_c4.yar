@@ -2,7 +2,7 @@ import "pe"
 
 rule brc4_core {
     meta:
-        version = "first version"
+        version = "1"
         author = "@ninjaparanoid"
         reference = "https://github.com/paranoidninja/Brute-Ratel-C4-Community-Kit/blob/main/deprecated/brc4.yara"
         date = "2022-11-19"
@@ -261,7 +261,7 @@ rule brc4_core {
 
 rule brc4_shellcode {
     meta:
-        version = "last version"
+        version = "1.1"
         author = "@ninjaparanoid"
         description = "Hunts for shellcode opcode used in Badger x86/x64 till release v1.2.9"
         arch_context = "x64"
